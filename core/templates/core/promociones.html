@@ -1,0 +1,29 @@
+{% extends 'core/base.html' %}
+
+{% block titulo %}
+Promociones | Centro Dental Linda Sonrisa
+{% endblock titulo %}
+
+{% load static %}
+
+{% block contenido %}
+
+<div class="container" style="background-color: white;">
+<!-- HEADER -->
+    <?php include 'navbar.php'; ?>
+
+    <center>
+    <div class="ofertas">
+        <a href="http://hugin.atwebpages.com/agendarHora.php">
+        <img width="80%" src="{% static 'core/img/promo1.png' %}" class="">
+    
+        <img width="80%" src="{% static 'core/img/promo2.png' %}" class="" alt="...">
+    
+        <img width="80%" src="{% static 'core/img/promo3.png' %}" class="" alt="...">
+
+        <img width="80%" src="{% static 'core/img/promo4.png' %}" class="" alt="..."></a>
+    </div>
+    </center>
+  
+</div>      
+{% endblock  %}

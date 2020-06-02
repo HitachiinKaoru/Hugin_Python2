@@ -1,0 +1,286 @@
+.vacuno{
+    background-color: #FF9164;
+    width: 140px;
+    height: 350px;
+    float: left; /* se despliega hacia la */
+    border-radius: 1em; /* que tanto se redondea el borde */
+    padding: 10px; /*marguen interno*/
+    text-align: center;
+    margin: 15px; /* marguen externo*/
+  }
+  .vacuno img{
+    width: 140px;
+    height: 150px;
+}
+  .vacuno p{
+      text-align: center;
+  }
+  .vacuno div:hover{ /* cuando se selecciona Agregar Producto cambia color*/
+      background-color: black;
+      padding: 6px;
+      border-radius: 2em;
+      color:white;
+  }
+
+  .cerdo{
+    background-color: rgb(243, 149, 62);
+    width: 140px;
+    height: 350px;
+    float: left; /* se despliega hacia la */
+    border-radius: 1em; /* que tanto se redondea el borde */
+    padding: 10px; /*marguen interno*/
+    text-align: center;
+    margin: 15px; /* marguen externo*/
+  }
+  .cerdo img{
+    width: 140px;
+    height: 150px;
+}
+  .cerdo p{
+      text-align: center;
+  }
+  .cerdo div:hover{ /* cuando se selecciona Agregar Producto cambia color*/
+      background-color: black;
+      padding: 6px;
+      border-radius: 2em;
+      color:white;
+  }
+
+  .pollo{
+    background-color: rgb(223, 220, 60);
+    width: 140px;
+    height: 350px;
+    float: left; /* se despliega hacia la */
+    border-radius: 1em; /* que tanto se redondea el borde */
+    padding: 10px; /*marguen interno*/
+    text-align: center;
+    margin: 15px; /* marguen externo*/
+  }
+  .pollo img{
+    width: 140px;
+    height: 150px;
+}
+  .pollo p{
+      text-align: center;
+  }
+  .pollo div:hover{ /* cuando se selecciona Agregar Producto cambia color*/
+      background-color: black;
+      padding: 6px;
+      border-radius: 2em;
+      color:white;
+  }
+
+  .pescado{
+    background-color: rgb(60, 158, 223);
+    width: 140px;
+    height: 350px;
+    float: left; /* se despliega hacia la */
+    border-radius: 1em; /* que tanto se redondea el borde */
+    padding: 10px; /*marguen interno*/
+    text-align: center;
+    margin: 15px; /* marguen externo*/
+  }
+  .pescado img{
+    width: 140px;
+    height: 150px;
+}
+  .pescado p{
+      text-align: center;
+  }
+  .pescado div:hover{ /* cuando se selecciona Agregar Producto cambia color*/
+      background-color: black;
+      padding: 6px;
+      border-radius: 2em;
+      color:white;
+  }
+
+  .verduras1{
+    background-color: rgb(42, 138, 23);
+    width: 140px;
+    height: 350px;
+    float: left; /* se despliega hacia la */
+    border-radius: 1em; /* que tanto se redondea el borde */
+    padding: 10px; /*marguen interno*/
+    text-align: center;
+    margin: 15px; /* marguen externo*/
+  }
+  .verduras1 img{
+    width: 140px;
+    height: 150px;
+}
+  .verduras1 p{
+      text-align: center;
+  }
+  .verduras1 div:hover{ /* cuando se selecciona Agregar Producto cambia color*/
+      background-color: black;
+      padding: 6px;
+      border-radius: 2em;
+      color:white;
+  }
+  .verduras2{
+    background-color: rgb(52, 167, 29);
+    width: 140px;
+    height: 350px;
+    float: left; /* se despliega hacia la */
+    border-radius: 1em; /* que tanto se redondea el borde */
+    padding: 10px; /*marguen interno*/
+    text-align: center;
+    margin: 15px; /* marguen externo*/
+  }
+  .verduras2 img{
+    width: 140px;
+    height: 150px;
+}
+  .verduras2 p{
+      text-align: center;
+  }
+  .verduras2 div:hover{ /* cuando se selecciona Agregar Producto cambia color*/
+      background-color: black;
+      padding: 6px;
+      border-radius: 2em;
+      color:white;
+  }
+  .verduras3{
+    background-color:rgb(66, 199, 40);
+    width: 140px;
+    height: 350px;
+    float: left; /* se despliega hacia la */
+    border-radius: 1em; /* que tanto se redondea el borde */
+    padding: 10px; /*marguen interno*/
+    text-align: center;
+    margin: 15px; /* marguen externo*/
+  }
+  .verduras3 img{
+    width: 140px;
+    height: 150px;
+}
+  .verduras3 p{
+      text-align: center;
+  }
+  .verduras3 div:hover{ /* cuando se selecciona Agregar Producto cambia color*/
+      background-color: black;
+      padding: 6px;
+      border-radius: 2em;
+      color:white;
+  }
+  .verduras4{
+    background-color:rgb(99, 226, 74);
+    width: 140px;
+    height: 350px;
+    float: left; /* se despliega hacia la */
+    border-radius: 1em; /* que tanto se redondea el borde */
+    padding: 10px; /*marguen interno*/
+    text-align: center;
+    margin: 15px; /* marguen externo*/
+  }
+  .verduras4 img{
+    width: 140px;
+    height: 150px;
+}
+  .verduras4 p{
+      text-align: center;
+  }
+  .verduras4 div:hover{ /* cuando se selecciona Agregar Producto cambia color*/
+      background-color: black;
+      padding: 6px;
+      border-radius: 2em;
+      color:white;
+  }
+
+  .vegano{
+    background-color: rgb(192, 189, 29);
+  }
+
+  .cocktail{
+    background-color: #D5D3D2;
+    width: 140px;
+    height: 350px;
+    float: left; /* se despliega hacia la */
+    border-radius: 1em; /* que tanto se redondea el borde */
+    padding: 10px; /*marguen interno*/
+    text-align: center;
+    margin: 15px; /* marguen externo*/
+  }
+  .cocktail img{
+    width: 140px;
+    height: 150px;
+}
+  .cocktail p{
+      text-align: center;
+  }
+  .cocktail div:hover{ /* cuando se selecciona Agregar Producto cambia color*/
+      background-color: black;
+      padding: 6px;
+      border-radius: 2em;
+      color:white;
+  }
+
+  .helado{
+    background-color: rgb(93, 218, 240);
+    width: 140px;
+    height: 350px;
+    float: left; /* se despliega hacia la */
+    border-radius: 1em; /* que tanto se redondea el borde */
+    padding: 10px; /*marguen interno*/
+    text-align: center;
+    margin: 15px; /* marguen externo*/
+  }
+  .helado img{
+    width: 140px;
+    height: 150px;
+}
+  .helado p{
+      text-align: center;
+  }
+  .helado div:hover{ /* cuando se selecciona Agregar Producto cambia color*/
+      background-color: black;
+      padding: 6px;
+      border-radius: 2em;
+      color:white;
+  }
+  .mascota1{
+    background-color: rgb(231, 96, 42);
+    width: 140px;
+    height: 350px;
+    float: left; /* se despliega hacia la */
+    border-radius: 1em; /* que tanto se redondea el borde */
+    padding: 10px; /*marguen interno*/
+    text-align: center;
+    margin: 15px; /* marguen externo*/
+  }
+  .mascota1 img{
+    width: 140px;
+    height: 150px;
+}
+  .mascota1 p{
+      text-align: center;
+  }
+  .mascota1 div:hover{ /* cuando se selecciona Agregar Producto cambia color*/
+      background-color: black;
+      padding: 6px;
+      border-radius: 2em;
+      color:white;
+  }
+  .mascota2{
+    background-color: rgb(174, 111, 211);
+    width: 140px;
+    height: 350px;
+    float: left; /* se despliega hacia la */
+    border-radius: 1em; /* que tanto se redondea el borde */
+    padding: 10px; /*marguen interno*/
+    text-align: center;
+    margin: 15px; /* marguen externo*/
+  }
+  .mascota2 img{
+    width: 140px;
+    height: 150px;
+}
+  .mascota2 p{
+      text-align: center;
+  }
+  .mascota2 div:hover{ /* cuando se selecciona Agregar Producto cambia color*/
+      background-color: black;
+      padding: 6px;
+      border-radius: 2em;
+      color:white;
+  }

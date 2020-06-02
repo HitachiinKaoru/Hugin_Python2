@@ -1,0 +1,98 @@
+  .contenedor {
+    margin-right: 1000px;
+  }
+  .contenedor fluid{
+    margin-right: 1000px;
+  }
+  
+  .tabla1 tr td{
+    background-color: white; /* Fondo*/
+    width: 50%; /* Ancho */
+    height: 400px; /* Altura */
+  }
+  .tabla1 tr td img{
+    float:left;
+    margin-left: 100px;
+    margin-right: -100px;
+    height: 60%;
+  }
+  .tabla1 tr td div h2{
+    color:#5FD846;
+  }
+  .tabla1 tr td div{
+    text-align:center;
+  }
+  
+  .tabla2 tr td{
+    background-color: white; /* Fondo*/
+    width: 50%; /* Ancho */
+    height: 200px; /* Altura */
+  }
+  
+  .tabla3 div{
+    background-color: #2E74B4; /* Fondo*/
+    width: 31%; /* Ancho */
+    height: 400px; /* Altura */
+    text-align:center;
+    color:white;
+    margin: 10px;
+    float: left;
+  }
+  
+  .tabla3 div div{
+    background-color:#3ED5BDB3;
+    color:black;
+    width: 94.5%; /* Ancho */
+    height: 94.5%;
+    padding: 10px;
+
+  }
+
+  .contenido-tabla{
+    width: 40%;
+    float: left; /* se despliega hacia la */
+    text-align: justify;
+  }
+  .contenido-info{
+    
+    color:white;
+    float: left; /* se despliega hacia la */
+    text-align: justify;
+    background-color: #2E74B4;
+    margin: 0px 10px 50px 10px;
+    padding: 10px;
+  }
+  
+  
+  .ofertas {
+    margin: 0px 0px 30px 0px;
+  }
+  .ofertas-fluid {
+    margin: 30px 0px 30px 0px;
+  }
+  .ofertas img{
+    margin-top: 30px;
+  }
+
+
+  @media (min-width: 768px) {
+    .contenedor {
+      width: 750px;
+    }
+    .contenido-info{
+      width: 50%;
+    }
+  }
+  @media (min-width: 992px) {
+    .contenedor {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .contenedor {
+      width: 1170px;
+    }
+  }
+  
+
+

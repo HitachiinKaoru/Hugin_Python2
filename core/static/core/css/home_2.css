@@ -1,0 +1,96 @@
+.font_0 {font: normal normal bold 35px/1.4em futura-lt-w01-light,sans-serif ;color:#30BDFF;} 
+.font_1 {font: normal normal normal 16px/1.4em Arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif ;color:#605E5E;} 
+.font_2 {font: normal normal normal 20px/1.4em futura-lt-w01-light,sans-serif ;color:#30BDFF;} 
+.font_3 {font: normal normal normal 20px/1.4em futura-lt-w01-book,sans-serif ;color:#30BDFF;} 
+.font_4 {font: normal normal normal 20px/1.4em futura-lt-w01-light,sans-serif ;color:#FFFFFF;} 
+.font_5 {font: normal normal normal 25px/1.4em 'open sans',sans-serif ;color:#0045BA;} 
+.font_6 {font: normal normal normal 20px/1.4em basic,sans-serif ;color:#474646;} 
+.font_7 {font: normal normal normal 17px/1.4em avenir-lt-w01_35-light1475496,sans-serif ;color:#FFFFFF;} 
+.font_8 {font: normal normal normal 17px/1.4em avenir-lt-w01_35-light1475496,sans-serif ;color:#A0A09F;} 
+.font_9 {font: normal normal normal 15px/1.4em 'open sans',sans-serif ;color:#605E5E;} 
+.font_10 {font: normal normal normal 12px/1.4em 'open sans',sans-serif ;color:#605E5E;}
+
+.color_0 {color: #FFFFFF;}
+.backcolor_0 {background-color: #FFFFFF;}
+.color_1 {color: #FFFFFF;}
+.backcolor_1 {background-color: #FFFFFF;}
+.color_2 {color: #000000;}
+.backcolor_2 {background-color: #000000;}
+.color_3 {color: #ED1C24;}
+.backcolor_3 {background-color: #ED1C24;}
+.color_4 {color: #0088CB;}
+.backcolor_4 {background-color: #0088CB;}
+.color_5 {color: #FFCB05;}
+.backcolor_5 {background-color: #FFCB05;}
+.color_6 {color: #727272;}
+.backcolor_6 {background-color: #727272;}
+.color_7 {color: #B0B0B0;}
+.backcolor_7 {background-color: #B0B0B0;}
+.color_8 {color: #FFFFFF;}
+.backcolor_8 {background-color: #FFFFFF;}
+.color_9 {color: #727272;}
+.backcolor_9 {background-color: #727272;}
+.color_10 {color: #B0B0B0;}
+.backcolor_10 {background-color: #B0B0B0;}
+.color_11 {color: #FFFFFF;}
+.backcolor_11 {background-color: #FFFFFF;}
+.color_12 {color: #CCCCCC;}
+.backcolor_12 {background-color: #CCCCCC;}
+.color_13 {color: #A0A09F;}
+.backcolor_13 {background-color: #A0A09F;}
+.color_14 {color: #605E5E;}
+.backcolor_14 {background-color: #605E5E;}
+.color_15 {color: #2F2E2E;}
+.backcolor_15 {background-color: #2F2E2E;}
+.color_16 {color: #BAE9FF;}
+.backcolor_16 {background-color: #BAE9FF;}
+.color_17 {color: #97DEFF;}
+.backcolor_17 {background-color: #97DEFF;}
+.color_18 {color: #30BDFF;}
+.backcolor_18 {background-color: #30BDFF;}
+.color_19 {color: #207EA9;}
+.backcolor_19 {background-color: #207EA9;}
+.color_20 {color: #103F54;}
+.backcolor_20 {background-color: #103F54;}
+.color_21 {color: #B6E8E3;}
+.backcolor_21 {background-color: #B6E8E3;}
+.color_22 {color: #8DD1CA;}
+.backcolor_22 {background-color: #8DD1CA;}
+.color_23 {color: #41BAAE;}
+.backcolor_23 {background-color: #41BAAE;}
+.color_24 {color: #2B7C74;}
+.backcolor_24 {background-color: #2B7C74;}
+.color_25 {color: #163E3A;}
+.backcolor_25 {background-color: #163E3A;}
+.color_26 {color: #F7BCA8;}
+.backcolor_26 {background-color: #F7BCA8;}
+.color_27 {color: #F0997C;}
+.backcolor_27 {background-color: #F0997C;}
+.color_28 {color: #E84109;}
+.backcolor_28 {background-color: #E84109;}
+.color_29 {color: #9B2B06;}
+.backcolor_29 {background-color: #9B2B06;}
+.color_30 {color: #4D1603;}
+.backcolor_30 {background-color: #4D1603;}
+.color_31 {color: #F4EAB1;}
+.backcolor_31 {background-color: #F4EAB1;}
+.color_32 {color: #E9DB89;}
+.backcolor_32 {background-color: #E9DB89;}
+.color_33 {color: #DEC328;}
+.backcolor_33 {background-color: #DEC328;}
+.color_34 {color: #94821B;}
+.backcolor_34 {background-color: #94821B;}
+.color_35 {color: #4A410D;}
+.backcolor_35 {background-color: #4A410D;}
+
+.pc1screenWidthBackground {position:absolute;top:0;right:0;bottom:0;left:0;}
+.pc1[data-state~="fixedPosition"] {position:fixed !important;left:auto !important;z-index:50;}
+.pc1[data-state~="fixedPosition"].pc1_footer {top:auto;bottom:0;}
+.pc1bg {position:absolute;top:0;right:0;bottom:0;left:0;}
+.pc1inlineContent {position:absolute;top:0;right:0;bottom:0;left:0;}
+.pc1centeredContent {position:absolute;top:0;right:0;bottom:0;left:0;}
+
+.siteBackground {width:100%;position:absolute;}
+.siteBackgroundbgBeforeTransition {position:absolute;top:0;}
+.siteBackgroundbgAfterTransition {position:absolute;top:0;}
+

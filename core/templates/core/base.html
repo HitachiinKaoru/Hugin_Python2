@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    {% load static %}
+    <link href="{% static 'core/css/estilos.css' %}" type="text/css" rel="stylesheet">
+    <link href="{% static 'core/css/contenedor-body.css' %}" type="text/css" rel="stylesheet">
+    <link href="{% static 'core/css/menu.css' %}" type="text/css" rel="stylesheet">
+    <link href="{% static 'core/css/modern-business.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <link rel="icon" type="image/png" href="{% static 'core/img/logo3.png' %}" />
+    
+    {% block titulo %}
+
+    {% endblock titulo %}
+</head>
+
+<div class="container">
+<body>
+
+<!----------------------- NAVBAR --------------------->
+    <header style="background: url({% static 'core/img/Fondo2.png' %}); background-size:cover;" >
+
+        <!-- MENÙ -->
+        <img src="{% static 'core/img/Logo1.png' %}" onclick="location.href='{% url 'HOME' %}'" width="8%" style="margin-top:-30px;">
+        
+        <nav class="nav nav-pills" style="background-color: #03AC13;">
+            <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle mobile-menu-toggle-button">
+            <ul id="plain-menu" class="mobile-toggleable-menu mobile-left" style="background-color: #03AC13;">
+                        <li class="nav-item">
+                            <a href="{% url 'HOME' %}">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{% url 'QUIENESSOMOS' %}">Quiénes Somos</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tratamientos</a>
+                            <div class="dropdown-menu" style="background-color: #9FF0A9;">
+                              <a class="dropdown-item" href="{% url 'TRATAMIENTO' %}">Ortodoncia</a>
+                              <a class="dropdown-item" href="{% url 'TRATAMIENTO' %}">Implantes</a>
+                              <a class="dropdown-item" href="{% url 'TRATAMIENTO' %}">Limpieza Dental</a>
+                              <a class="dropdown-item" href="{% url 'TRATAMIENTO' %}">Blanqueamiento</a>
+                            </div>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="{% url 'PROMOCIONES' %}">Promociones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{% url 'UBICACION' %}">Ubicación</a>
+                        </li>
+                    
+                    <label class="mobile-left mobmenu-toggle" for="mobile-menu-toggle">+</label>
+            </ul>
+         </nav>
+    </header>
+<!---- FIN navbar ----->
+
+
+<!------------ INTERIOR DE LA PÁGINA ---------------------------------------->
+    <section>
+            {% block contenido %}
+            
+            {% endblock  %}
+    </section>
+<!---- FIN interior página ----->
+
+
+<!-------- FOOTER ------------------------------------------------------------>
+        <footer class="final" style="background: url({% static 'core/img/Fondo2.png' %}); background-size:cover;">
+            <div>
+                <div>
+                    <img srcset="{% static 'core/img/Logo2.png' %}">
+                </div>
+                <div>
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick" />
+                            <input type="hidden" name="hosted_button_id" value="9FQ9UXSCJ5A2S" />
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                            <img alt="" border="0" src="https://www.paypal.com/en_CL/i/scr/pixel.gif" width="1" height="1" />
+                        </form>
+                   </div>
+                <div>
+                    <p color="black;">Copyright &copy; <?php echo date("Y") ?> Sistema Hugin, todos los derechos reservados. <br> Developer HitachiinFamily</p>
+                </div> 
+            </div>
+     </footer>
+<!---- FIN footer ----->
+
+
+     <!-- jQuery -->
+        <script src="{% static 'core/js/jquery.js' %}"></script>
+
+
+</body>
+</div>
+</html>
