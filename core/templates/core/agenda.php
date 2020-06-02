@@ -10,23 +10,50 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel"><b>Confirme datos para Reserva de Hora</b></h4>
                         </div>
                         <form role="form" action="index.php" method="post">
-                            
                             <div class="modal-body">
-                                    <label for="usuario">¿Está seguro que desea reservar la hora seleccionada?</label>
+                                <div class="form-group">
+                                    <label>Fecha Atencion:</label>
+                                    <input class="form-control" disabled="true" type="text" id="txtFecha" size="8" name="txtFecha"> 
+                                </div>
+                                <div class="form-group">
+                                    <label>Hora Atencion:</label>
+                                    <input class="form-control" disabled="true" type="text" id="txtHora" size="8" name="txtHora"> 
+                                </div>
+                                <div class="form-group">
+                                    <label>Ingrese su Rut</label>
+                                    <input class="form-control" disabled="true" type="text" id="txtRut" size="8" name="txtRut"> 
+                                </div>
+                                <div class="form-group">
+                                    <label>Mensaje</label>
+                                    <textarea class="form-control" placeholder="Describa brevemente su motivo de consulta" id="txtMensaje" name="txtMensaje" rows="8" cols="40" required="true"></textarea>
+                                </div>
                             </div>
                             
                             <div class="modal-footer">
-                                <button type="submit" class="btn btn-default" name="btnValida" value="btnValida">Aceptar</button>
+                                <button type="submit" class="btn btn-default" id="btnEnvioDatos" name="btnEnvioDatos">Reservar</button>
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-
                             </div>
                         </form>
                     </div><!-- /.modal-content -->
                 </div><!-- /.modal-dialog -->
             </div>
 <!-- /.modal -->
+{% csrf_token %}
+{% if sw %}
+        <script>
+            setTimeout(function(){
+                document.getElementById("mensaje").innerHTML=''
+            },2000)
+        </script>
+        <div id="mensaje">        
+            <b>{{msg}}</b>
+        </div>
+        
+        {% endif %}
+        
 
         <div class="input-group input-group-lg mb-3">
           <div class="input-group-prepend">

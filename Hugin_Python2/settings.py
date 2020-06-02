@@ -64,11 +64,11 @@ WSGI_APPLICATION = 'Hugin_Python2.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.oracle',
         'NAME': 'PORTAFOLIO',
         'USER':'c##_portafolio',
         'PASSWORD':'portafolio',
-        'HOST':'',
+        'HOST':'localhost',
         'PORT':'1521',
     }
 }
